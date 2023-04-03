@@ -1,0 +1,17 @@
+Solution:
+  This hint was encoded with the pigpen cipher. When decoded, it reads:
+
+Crack the air
+To enter theCove
+Find ye their
+A treasure trove
+
+This hint was meant to indicate that you'd need to use aircrack-ng to get onto a wireless
+network being broadcast in the con area called "theCove"
+
+
+
+Description:
+  Again, this puzzle cannot be put into a text file. This was done on a raspberry pi, so
+If I can find a good/simple way to upload the image for this I will, but likely you'll
+just have to read through this one if you weren't able to do it at the con.

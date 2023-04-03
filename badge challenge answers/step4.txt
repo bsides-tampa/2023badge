@@ -1,0 +1,15 @@
+Solution:
+  On the website, there was a single text box and a single button to authenticate. If you
+view the source on the site, you can see that the authenticate button is calling a javascript
+function called "authenticate()" and further down you can find a script block containing this
+function.
+
+The function simply checks the text box to see if the entered text matches a plain text string
+That says "Y0_H0_Me_Heart1es!" Copying this string and pasting it into the text box will cause
+the site to authenticate you and download a file titled "download.zip"
+
+
+
+Description:
+  Unzipping this file you will see that it contains only a single file: download.txt. this
+contains a lot, buts its all seemingly just junk.

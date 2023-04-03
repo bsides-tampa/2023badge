@@ -1,0 +1,26 @@
+Solution:
+  This particular puzzle has two different parts to it; the first is that the image is clearly
+glitched. This is usually an indication that the file has been modified in some way. In this
+Particular case, we can assume that something has been hidden in the file.
+
+If we reopen this file in our hex editor again, we can scroll further down (since the glitching
+is concentrated at the end of the image) and we see the following text has been injected into
+the hex of the image:
+
+Yer nearing the finish,
+Yer abABBABut at the end.
+
+Solve this last cipher,
+Then a message you'll send.
+
+abABBABut bsides tampa,
+And yer favorite thing here.
+
+With any suggestions,
+Ye've got fer next year.
+
+
+
+Description:
+  This text hidden in the image was meant to give clues on how to solve the image itself, which
+by now you've probably realized is not just binary as it would seem...

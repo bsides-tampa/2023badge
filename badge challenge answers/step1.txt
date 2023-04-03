@@ -1,0 +1,13 @@
+Solution:
+  The text was rot13 encoded, when its decoded it says:
+
+If adventure’s yer fancy Or swag be yer pursuit Search the four corners And set sail on the route
+
+This hint was meant to lead you to inspect the 4 corners of your badge, where you would find
+some more encoded text.
+
+
+
+Description:
+  This text was not any font or text based puzzle, so I'm not able to post the encoded text 
+in a text file; you'll just have to go look at your badge to see this one.

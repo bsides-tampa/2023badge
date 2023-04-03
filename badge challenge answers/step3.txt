@@ -1,0 +1,30 @@
+Solution:
+  theCove was using WEP encryption which has many issues, hence why it's not used much anymore.
+The main issue is that if enough packets are captured (and thus IVs are captured) the password
+can be cracked very easily. This can be done using the following steps:
+
+1. Using a wireless card in monitor mode, run airodump-ng targeting "theCove" and capture some
+packets. If there's not much traffic, things like deauth attacks can force clients off of the
+AP, making them reconnect which can generate traffic.
+
+2. Use aircrack-ng against the capture file created in step 1. Aircrack-ng will use statistical
+attacks to determine the key stream and the WEP key.
+
+Since WEP keys can only contain hex characters and must be either 10, 26, or 58 digits long, the
+possible combinations are extremely limited, making cracking the keys even easier.
+
+If you didn't have or didn't know how to use aircrack-ng, another option would be to simply
+google walkthroughs on creating WEP networks as most suggest the password that was used:
+
+abcdeabcde
+
+
+
+Description:
+  Once you were on theCove, you could scan the network with any network scanning tool and you
+Would find that there was only one host on the network and it only had port 80 open; indicating
+A web server.
+
+Browsing to the IP address of the server would reveal a website which is duplicated at:
+
+https://forgotten.codes/

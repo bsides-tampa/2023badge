@@ -1,0 +1,24 @@
+Solution:
+  The key here was the word "abABBABut" which appeared twice in the poem found in the hex of
+the image. This text indicates a Baconian cipher, which uses a series of As and Bs (or 1s and
+0s) in place of specific letters as a form of steganography.
+
+Applying the Baconian cipher to the 1s and 0s would reveal the email address:
+
+key@bsidestampa.net
+
+This was the actual ending of the badge challenge, however when you emailed this address two
+things would happen:
+
+1. Myself and others would receive the email you sent so we could confirm that you had won
+The challenge and so we would know who the first winners were (and could award them the uber
+badges as their prize)
+
+2. It would send an "out of office" auto-reply back. The auto-reply message would read:
+
+I am 0ut of the 0ffice right now, However sh0uld you need to re@ch me regarding 1nputs, you
+can always call my C3LLULAR phone at: (248)434-5508
+THanks.
+
+This was sent as a joke to make people think the challenge wasn't quite done yet. I'll let
+call the number yourself for the full experience.

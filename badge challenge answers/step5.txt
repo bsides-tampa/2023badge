@@ -1,0 +1,12 @@
+Solution:
+  Opening download.txt in a hex editor will reveal a few things; this file begins with JFIF which
+indicates a jpg file, as well as a header showing that the file was made in GIMP. Between these
+two hints its becomes clear that this is not actually a text file.
+
+Changing the file from a .txt to either a .jpg or .png will reveal a picture instead of a txt file.
+
+
+
+Description:
+  The file itself has some glitching on the bottom, but a series of 1s and 0s can be seen covering
+The entirety of the image.
